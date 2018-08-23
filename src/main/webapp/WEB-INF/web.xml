@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>spring</servlet-name>
+        <!-- 第一步：用来拦截所有的请求 -->
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>    
+         
+        <!-- load-on-startup：表示启动容器时初始化该Servlet； <init-param>
+   			 <param-name>contextConfigLocation</param-name>
+    		<param-value>classpath*:resources/spring-servlet.cml</param-value>
+  		</init-param> -->
+        <load-on-startup>1</load-on-startup>
+        
+    </servlet>
+ 	<!-- 第二步：上面dispathcherservlet拦到请求后，交给mapping进行过滤。并得到相应的映射。并返回给  dispathcherservlet-->
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <!-- url-pattern：表示哪些请求交给Spring Web MVC处理， “/” 是用来定义默认servlet映射的。 -->
+		<!-- 也可以如“*.html”表示拦截所有以html为扩展名的请求。 -->
+        <url-pattern>*.do</url-pattern>
+     </servlet-mapping>
+</web-app>
