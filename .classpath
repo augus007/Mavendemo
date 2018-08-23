@@ -6,11 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -18,17 +13,17 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="src/main/java/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/javax.servlet-api-3.0.1.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-aop-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-beans-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-context-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-core-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-expression-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-web-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-webmvc-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/spring-websocket-4.3.10.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/main/java/lib/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-aop-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-beans-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-context-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-core-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-expression-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-web-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-webmvc-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-websocket-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/standard-1.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
